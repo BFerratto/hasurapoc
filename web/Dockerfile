@@ -4,4 +4,3 @@ COPY ./package.json /app/package.json
 WORKDIR /app
 RUN npm install 
 RUN rm /app/package.json
-VOLUME /app/node_modules
